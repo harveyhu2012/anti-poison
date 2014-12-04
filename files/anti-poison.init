@@ -1,0 +1,14 @@
+#!/bin/sh /etc/rc.common
+
+START=99
+
+. /lib/functions.sh
+. /usr/lib/anti-poison/anti-poison.sh
+
+start() {
+	anti_poison_run &
+	}
+
+stop() {
+	anti_poison_stop &
+	}

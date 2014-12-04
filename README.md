@@ -1,4 +1,4 @@
-anti-position
+anti-poison
 =============
 
 # Prevent DNS poison
@@ -9,7 +9,7 @@ anti-position
 # 优点：
 * 使用114等DNS，解析速度快
 * 不用VPN就可以防止DNS投毒
-* 开机立即可用，原版可能需要较长初始化时间
+* 安装后重启一次立即可用，原版可能需要较长初始化时间
 
 # 缺点：
 * 假IP地址列表可能会有变化，需要手工更新 /etc/config/anti-poison
